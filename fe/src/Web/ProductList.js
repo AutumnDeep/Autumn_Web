@@ -20,7 +20,7 @@ const ProductList = () => {
     }   
 
     return (
-        <div>
+        <div className="text-3xl font-bold underline">
           {data ? data.map((datas)=> (
             <div key={datas.id}>
             <div className="name">{datas.name}</div>
